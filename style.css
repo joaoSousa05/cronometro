@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#carrosel {
+    text-align: center;
+    background-image: url(mar2.jpg);
+    height: 100vh;
+    background-size: cover;
+    padding-top: 22vh;
+    color: rgb(160, 160, 160);
+}
+
+#min {
+    margin: 24vw;
+    font-size: 1vw;
+}
+
+.marcacao {
+    font-size: 1vw;
+}
+
+@media screen and (max-width:1200px) {
+    #min {
+        margin: 20vw;
+        font-size: 2vw;
+    }
+
+    .marcacao {
+        font-size: 2vw;
+    }
+}
+
+#watch {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20vw;
+
+}
+
+.botao {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+
+}
+
+.botao:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+li {
+    display: inline;
+}
